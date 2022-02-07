@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConqueringOfMarsApp", "ConqueringOfMarsApp\ConqueringOfMarsApp.csproj", "{A0E34961-1DEC-4CDC-AFD6-2E9D75A4F7B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConqueringOfMars", "..\..\test\TestConqueringOfMars\TestConqueringOfMars.csproj", "{D685C66F-608E-4BB5-A720-BA472BF78ECD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0E34961-1DEC-4CDC-AFD6-2E9D75A4F7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E34961-1DEC-4CDC-AFD6-2E9D75A4F7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E34961-1DEC-4CDC-AFD6-2E9D75A4F7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E34961-1DEC-4CDC-AFD6-2E9D75A4F7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D685C66F-608E-4BB5-A720-BA472BF78ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D685C66F-608E-4BB5-A720-BA472BF78ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D685C66F-608E-4BB5-A720-BA472BF78ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D685C66F-608E-4BB5-A720-BA472BF78ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BA94E08-DADD-499C-8F51-723DB6CF030F}
+	EndGlobalSection
+EndGlobal

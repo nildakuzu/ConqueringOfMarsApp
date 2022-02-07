@@ -3,7 +3,7 @@ using Xunit;
 
 namespace TestConqueringOfMars
 {
-    public class UnitTest1
+    public class ConverterTest
     {
         [Fact]
         public void Test1()

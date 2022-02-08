@@ -1,7 +1,6 @@
 using ConqueringOfMars.Consant;
 using ConqueringOfMars.Consant.Enum;
 using ConqueringOfMars.Model;
-using System;
 using System.Text;
 using Xunit;
 
@@ -31,17 +30,6 @@ namespace TestConqueringOfMars
         [Fact]
         public void SayNavigation_For_Actual_Navigation()
         {
-            var roverModel = new RoverModel()
-            {
-                Name = "MyName",
-                Identity = "MyIdentity",
-                InstructionList = new System.Collections.Generic.List<string>() { "L", "R", "L" },
-                FacingCompassPoint = EnmCompassPoint.North,
-                CurrentCoordinate = new CoordinateModel(1, 2),
-                MaxExploringCoordinate = new CoordinateModel(1, 2),
-                Mission = "Mission",
-            };
-
             var navigationMsg = RoverNavigationMessage.Moving;
 
             Assert.Equal("I am moving", navigationMsg);

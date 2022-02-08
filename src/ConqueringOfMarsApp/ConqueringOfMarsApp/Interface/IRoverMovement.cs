@@ -12,6 +12,5 @@ namespace ConqueringOfMars.Interface
         void Move(RoverModel rover, CoordinateModel nextStep);
 
         void StartExploring(RoverModel rover);
-
     }
 }

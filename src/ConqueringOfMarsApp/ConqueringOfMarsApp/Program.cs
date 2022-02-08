@@ -19,7 +19,6 @@ namespace ConqueringOfMars
                 .AddTransient<IConverter, Converter>()
                 .AddTransient<IRoverMovement, RoverMovement>()
                 .AddTransient<IRoverSpeaker, RoverSpeaker>()
-                .AddTransient<IRoverSpeaker, RoverSpeaker>()
                 .BuildServiceProvider();
 
             IConfiguration Config = new ConfigurationBuilder()
@@ -36,7 +35,6 @@ namespace ConqueringOfMars
 
             roverMovement.StartExploring(rover1);
             roverMovement.StartExploring(rover2);
-
         }
 
         private static PlateauModel InitiliazePlateauBoundary(IConfiguration Config)
@@ -59,7 +57,6 @@ namespace ConqueringOfMars
                 FacingCompassPoint = EnmCompassPoint.North,
                 InstructionList = new List<string> { "L", "M", "L", "M", "L", "M", "L", "M", "M" },
             };
-
         }
 
         static RoverModel InitiliazeRover_2(PlateauModel plateauModel)
@@ -74,7 +71,6 @@ namespace ConqueringOfMars
                 FacingCompassPoint = EnmCompassPoint.East,
                 InstructionList = new List<string> { "M", "M", "R", "M", "M", "R", "M", "R", "R", "M" },
             };
-
         }
     }
 }

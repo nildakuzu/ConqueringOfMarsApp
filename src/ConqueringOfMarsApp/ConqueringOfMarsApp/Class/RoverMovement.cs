@@ -42,7 +42,7 @@ namespace ConqueringOfMars.Class
                     throw new IndexOutOfRangeException($"Unknown instruction : {currentInstruction}");
             }
 
-            currentFacingCompassPoint = currentFacingCompassPoint % 4;
+            currentFacingCompassPoint %= 4;
 
             if (currentFacingCompassPoint == 0)
             {
